@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+IE+Guides&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Playwrite+IE+Guides&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Matemasie&family=Playwrite+IE+Guides&display=swap");
 
 * {
   padding: 0;
@@ -53,252 +56,256 @@ body {
 
 /* Sample CSS for the WHY word */
 
-.whyWLetter {
+.whyWLetter,
+.rootOTwoLetter {
   font-size: 72px;
   font-weight: bold;
   color: aqua;
   text-decoration: underline;
   text-transform: uppercase;
-  font-family: 'Piazolla', sans-serif;
+  font-family: "Piazolla", sans-serif;
 }
 
-.whyHLetter {
+.whyHLetter,
+.takeALetter {
   font-size: 30px;
   font-weight: bold;
   color: darkgoldenrod;
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: 'Ceviche One', sans-serif;
+  font-family: "Ceviche One", sans-serif;
 }
 
-.whyYLetter {
+.whyYLetter,
+.toOLetter {
   font-size: 60px;
   font-weight: normal;
   color: coral;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: "Raleway Dots", sans-serif;
 }
 
 /* DID word */
 
-.didDLetter {
+.didDLetter,
+.takeTLetter {
+  font-size: 40px;
+  font-weight: 400;
+  color: rgb(180, 223, 162);
+  text-decoration: pink wavy underline;
+  text-transform: lowercase;
+  font-family: "Edu AU VIC WA NT Dots", sans-serif;
 }
 
-.didILetter {
+.didILetter,
+.theyYLetter {
+  font-size: 40px;
+  font-weight: normal;
+  color: hsl(102, 74%, 29%);
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: "matemasie", sans-serif;
 }
 
-.didDTwoLetter {
+.didDTwoLetter,
+.takeKLetter {
+  font-size: 45px;
+  font-weight: bold;
+  color: #71b454;
+  text-decoration: underline dotted;
+  text-transform: lowercase;
+  font-family: "playwrite", sans-serif;
 }
 
 /* THE word */
 
-.theTLetter {
+.theTLetter,
+.takeELetter,
+.rootRLetter {
+  font-size: 70px;
+  font-weight: 700;
+  color: rgb(170, 170, 170);
+  text-decoration: none;
+  text-transform: full-width;
+  font-family: "matemasie", sans-serif;
 }
 
-.theHLetter {
+.theHLetter,
+.theyHLetter {
+  font-size: 35px;
+  font-weight: normal;
+  color: hsl(335, 88%, 75%);
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: "ceviche one", sans-serif;
 }
 
-.theELetter {
+.theELetter,
+.theyELetter {
+  font-size: 45px;
+  font-weight: 400;
+  color: rgb(98, 227, 231);
+  text-decoration: whitesmoke wavy underline;
+  text-transform: lowercase;
+  font-family: "matemasie", sans-serif;
 }
 
 /* FRONT-END word */
-
-.frontendFLetter {
+.front span:nth-child(even),
+.toTLetter {
+  font-size: 60px;
+  font-weight: 400;
+  color: hsl(66, 97%, 57%);
+  text-decoration: whitesmoke wavy underline;
+  text-transform: lowercase;
+  font-family: "matemasie", sans-serif;
 }
 
-.frontendRLetter {
-}
-
-.frontendOLetter {
-}
-
-.frontendNLetter {
-}
-
-.frontendTLetter {
-}
-
-.frontendELetter {
-}
-
-.frontendNTwoLetter {
-}
-
-.frontendDLetter {
+.front span:nth-child(odd),
+.theyTLetter,
+.rootTLetter {
+  font-size: 75px;
+  font-weight: bold;
+  color: #ff7a58;
+  text-decoration: underline dotted;
+  text-transform: lowercase;
+  font-family: "matemasie", sans-serif;
 }
 
 /* DEVELOPER word */
-
-.developerDLetter {
+.dev span:nth-child(even) {
+  font-size: 50px;
+  font-weight: normal;
+  color: hsl(61, 45%, 66%);
+  text-decoration: whitesmoke overline;
+  text-transform: lowercase;
+  font-family: "piazolla", sans-serif;
 }
-.developerELetter {
-}
-.developerVLetter {
-}
-.developerETwoLetter {
-}
-.developerLLetter {
-}
-.developerOLetter {
-}
-.developerPLetter {
-}
-.developerEThreeLetter {
-}
-.developerRLetter {
-}
-
-/* TAKE word */
-
-.takeTLetter {
-}
-.takeALetter {
-}
-.takeKLetter {
-}
-.takeELetter {
+.dev span:nth-child(odd),
+.theirTLetter {
+  font-size: 55px;
+  font-weight: 400;
+  color: rgb(118, 177, 255);
+  text-decoration: whitesmoke underline;
+  text-transform: uppercase;
+  font-family: "CEVICHE ONE", sans-serif;
 }
 
 /* UP word */
 
 .upULetter {
+  font-size: 50px;
+  font-weight: bold;
+  color: hsl(12, 100%, 72%);
+  text-decoration: whitesmoke line-through;
+  text-transform: uppercase;
+  font-family: "Edu AU VIC WA NT Dots", sans-serif;
 }
-.upPLetter {
+.upPLetter,
+.theirRLetter {
+  font-size: 30px;
+  font-weight: bold;
+  color: hsl(213, 60%, 86%);
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "ceviche one", sans-serif;
 }
 
 /* GARDENING word */
-
-.gardeningGLetter {
+.garden span:nth-child(3n + 1),
+.wanted span:nth-child(even) {
+  font-size: 40px;
+  font-weight: 400;
+  color: hsl(12, 81%, 35%);
+  text-decoration: whitesmoke overline;
+  text-transform: uppercase;
+  font-family: "raleway dots", sans-serif;
 }
-.gardeningALetter {
+.garden span:nth-child(3n + 2),
+.theirILetter,
+.rootOLetter {
+  font-size: 60px;
+  font-weight: bold;
+  color: rgb(228, 223, 160);
+  text-decoration: rgb(172, 43, 43) underline;
+  text-transform: uppercase;
+  font-family: "piazolla", sans-serif;
 }
-.gardeningRLetter {
-}
-.gardeningDLetter {
-}
-.gardeningELetter {
-}
-.gardeningNLetter {
-}
-.gardeningILetter {
-}
-.gardeningNTwoLetter {
-}
-.gardeningGTwoLetter {
+.garden span:nth-child(3n),
+.wanted span:nth-child(odd) {
+  font-size: 50px;
+  font-weight: normal;
+  color: rgb(109, 243, 176);
+  text-decoration: none;
+  text-transform: full-width;
+  font-family: "playwrite", sans-serif;
 }
 
 /* BECAUSE word */
-
-.becauseBLetter {
+.because span:nth-child(even),
+.theirHLetter {
+  font-size: 50px;
+  font-weight: normal;
+  color: rgb(80, 250, 94);
+  text-decoration: underline wavy;
+  text-transform: lowercase;
+  font-family: "ceviche one", sans-serif;
 }
-.becauseELetter {
-}
-.becauseCLetter {
-}
-.becauseALetter {
-}
-.becauseULetter {
-}
-.becauseSLetter {
-}
-.becauseETwoLetter {
-}
-
-/* THEY word */
-
-.theyTLetter {
-}
-.theyHLetter {
-}
-.theyELetter {
-}
-.theyYLetter {
-}
-
-/* WANTED word */
-
-.wantedWLetter {
-}
-.wantedALetter {
-}
-.wantedNLetter {
-}
-.wantedTLetter {
-}
-.wantedELetter {
-}
-.wantedDLetter {
-}
-
-/* TO word */
-
-.toTLetter {
-}
-.toOLetter {
+.because span:nth-child(odd),
+.theirELetter {
+  font-size: 60px;
+  font-weight: bold;
+  color: #5145f8;
+  text-decoration: overline wavy;
+  text-transform: uppercase;
+  font-family: "Edu AU VIC WA NT Dots", sans-serif;
 }
 
 /* IMPROVE word */
-
-.improveILetter {
+.improve span:nth-child(2n) {
+  font-size: 60px;
+  font-weight: bold;
+  color: rgb(243, 109, 214);
+  text-decoration: wavy overline;
+  text-transform: full-width;
+  font-family: "playwrite", sans-serif;
 }
-.improveMLetter {
-}
-.improvePLetter {
-}
-.improveRLetter {
-}
-.improveOLetter {
-}
-.improveVLetter {
-}
-.improveELetter {
-}
-
-/* THEIR word */
-
-.theirTLetter {
-}
-.theirHLetter {
-}
-.theirELetter {
-}
-.theirILetter {
-}
-.theirRLetter {
-}
-
-/* ROOT word */
-
-.rootRLetter {
-}
-.rootOLetter {
-}
-.rootOTwoLetter {
-}
-.rootTLetter {
+.improve span:nth-child(odd) {
+  font-size: 50px;
+  font-weight: normal;
+  color: rgb(109, 243, 176);
+  text-decoration: underline wavy;
+  text-transform: uppercase;
+  font-family: "raleway dots", sans-serif;
 }
 
 /* SKILLS word */
-
-.skillsSLetter {
+.skill span:nth-child(-n + 3) {
+  font-size: 70px;
+  font-weight: bold;
+  color: #f77d2c;
+  text-decoration: underline wavy;
+  text-transform: uppercase;
+  font-family: "ceviche one", sans-serif;
 }
-.skillsKLetter {
+.skill span:nth-last-child(-n + 3) {
+  font-size: 50px;
+  font-weight: normal;
+  color: rgb(96, 135, 240);
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "playwrite", sans-serif;
 }
-.skillsILetter {
-}
-.skillsLLetter {
-}
-.skillsLTwoLetter {
-}
-.skillsSTwoLetter {
-}
-
 /* SYMBOLS */
 
-.hyphen {
-}
-.exclamation-mark {
-}
+#symbol,
+.exclamation-mark,
 .question-mark {
+  font-size: 100px;
+  font-weight: 700;
+  color: rgb(255, 62, 14);
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: "matemasie", sans-serif;
 }
